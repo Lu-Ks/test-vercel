@@ -1,0 +1,23 @@
+{
+  "name": "test-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Lu-Ks/test-vercel#readme",
+  "bugs": {
+    "url": "https://github.com/Lu-Ks/test-vercel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lu-Ks/test-vercel.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "resend": "^4.6.0"
+  }
+}
