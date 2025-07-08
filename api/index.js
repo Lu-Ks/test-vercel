@@ -2,7 +2,7 @@ import { Resend } from 'resend';
 
 export default function handler(req, res) {
 
-  console.log(test_env);
+  console.log(process.env.test_env);
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   resend.emails.send({
